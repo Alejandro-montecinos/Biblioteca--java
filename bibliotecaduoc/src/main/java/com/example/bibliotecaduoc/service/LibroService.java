@@ -31,7 +31,7 @@ public class LibroService {
 
     public String deleteLibro(int id){
         libroRepository.eliminar(id);
-        return "producto eliminado";
+        return "eliminado";
 
     }
 
